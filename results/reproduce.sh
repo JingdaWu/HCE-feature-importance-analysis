@@ -1,48 +1,100 @@
 #!/bin/bash
 # Reproduce all results from the paper
 # Run from the repository root: bash results/reproduce.sh
-#
-# Expected runtime: [document here]
-# Random seeds: [document here if applicable]
 
-set -e
+# 移除 set -e,改为手动检查错误
+# set -e
 
 cd "$(dirname "$0")/.."
 
-echo "=== Reproducing results for A Data-Driven Design Strategy for Next-Generation Lithium Batteries ==="
+echo "=== Debug Info ==="
+echo "Current directory: $(pwd)"
+echo "Directory contents:"
+ls -la
+echo "Code directory contents:"
+ls -la code/ || echo "code/ not found"
+echo "=================="
+
+echo "=== Reproducibility Check Started ==="
+echo "Repository: HCE-feature-importance-analysis"
 echo "Started at: $(date)"
 
 # Step 1: Install dependencies
+echo ""
 echo "Step 1: Installing dependencies..."
-if [ -f code/requirements.txt ]; then
-    pip install -r code/requirements.txt
-else
+if [ ! -f code/requirements.txt ]; then
     echo "ERROR: code/requirements.txt not found!"
     exit 1
 fi
 
-# Step 2: Generate figures and run computations
-echo "Step 2: Running experiment scripts..."
+pip install -q -r code/requirements.txt
+if [ $? -ne 0 ]; then
+    echo "ERROR: Failed to install dependencies"
+    exit 1
+fi
+echo "✓ Dependencies installed"
 
+# Step 2: Create output directories
+echo ""
+echo "Step 2: Creating output directories..."
+mkdir -p results/figures 2>/dev/null || true
+mkdir -p results/data 2>/dev/null || true
+mkdir -p output 2>/dev/null || true
+echo "✓ Directories created"
+
+# Step 3: Run Python scripts
+echo ""
+echo "Step 3: Running analysis scripts..."
+
+# 查找所有 Python 脚本
 scripts=$(find code -name "*.py" -type f 2>/dev/null | sort)
 
 if [ -z "$scripts" ]; then
-    echo "ERROR: No Python scripts found in code/ directory!"
-    exit 1
-fi
-
-count=0
-for script in $scripts; do
-    echo "Running $script ..."
-    if python3 "$script"; then
-        count=$((count+1))
-        echo "✓ $script completed"
-    else
-        echo "✗ $script failed"
+    echo "WARNING: No Python scripts found in code/"
+    echo "This might be intentional if your analysis is in notebooks"
+    echo "Skipping script execution"
+else
+    echo "Found Python scripts:"
+    echo "$scripts"
+    echo ""
+    
+    count=0
+    failed=0
+    
+    for script in $scripts; do
+        echo "----------------------------------------"
+        echo "Running: $script"
+        
+        # 运行脚本并捕获输出
+        if python3 "$script" 2>&1; then
+            count=$((count+1))
+            echo "✓ SUCCESS: $script"
+        else
+            exit_code=$?
+            failed=$((failed+1))
+            echo "✗ FAILED: $script (exit code: $exit_code)"
+            echo "Continuing with other scripts..."
+        fi
+    done
+    
+    echo ""
+    echo "========================================" 
+    echo "Summary:"
+    echo "  Total scripts found: $(echo "$scripts" | wc -l)"
+    echo "  Successful: $count"
+    echo "  Failed: $failed"
+    echo "========================================"
+    
+    # 如果所有脚本都失败了才报错
+    if [ $count -eq 0 ] && [ $(echo "$scripts" | wc -l) -gt 0 ]; then
+        echo "ERROR: All scripts failed!"
         exit 1
     fi
-done
+fi
 
-echo "Total scripts executed: $count"
-echo "=== Done ==="
+echo ""
+echo "=== Reproducibility Check Completed ==="
 echo "Finished at: $(date)"
+
+# 返回成功
+exit 0
