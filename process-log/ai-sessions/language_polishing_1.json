@@ -1,0 +1,165 @@
+{
+  "experiment_record": {
+    "title": "English Proofreading and Polishing Session for Academic Manuscript",
+    "date": "2026-03-30",
+    "purpose": "Correct and polish English text for academic manuscript following Nature/Science journal standards",
+    "sessions": [
+      {
+        "session_number": 1,
+        "user_instruction": "Proofread and polish the following article in English. Correct errors or non-standard expressions and modify them. Style should reference top academic journals like Nature and Science. However, do not make large-scale modifications to the writing logic and structure, and avoid using too many 'high-end' academic vocabulary.",
+        "original_text": "Lithium-ion batteries (LIBs) have become a critical technology in the energy landscape, supporting applications that range from portable electronics to electric vehicles and large-scale energy storage systems. The advantages such as the high energy density, long cycle life and relatively mature manufacturing processes have established LIBs as a key component in the transition toward carbon neutralization energy systems. Corresponding to the demands for high-performance and improved safety of LIBs, the development of advanced electrolyte systems has emerged as a critical research target. Among series of studied electrolytes, high-concentration electrolytes (HCEs), such as 3 M LiFSI dissolved in dimethoxyethane (DME), have attracted increasing attention. Compared with conventional dilute electrolytes, HCEs exhibit enhanced electrochemical stability, improved compatibility with high-voltage cathodes and the ability to facilitate the formation of solid electrolyte interphases (SEI). These advantages derive from their unique solvation feature, where a larger fraction of solvent molecules coordinate with lithium ions. However, HCEs still face significant challenges , limiting their practical application, such as their comparatively-high viscosity and low ionic conductivity, hindering their rate performance. In addition, sluggish ion transport facilitate lithium plating during charge process, raising safety concerns and degrading battery lifespan.\nTo address these limitations, an effective strategy involves the introduction of diluents into HCEs has been widely attempted. Diluents are typically non-coordinating or weakly coordinating solvents that can reduce the viscosity of the electrolyte without significantly disrupting the localized high-concentration solvation structure. By lowering the viscosity, diluents enhance the ionic mobility conductivity of the electrolytes effectively, and ideally preserve the favorable SEIs between HCEs and electrodes. Among various diluents, fluorinated benzene-derivatives, such as fluorobenzene (FBn), 1,2-difluorobenzene (dFBn), 1,3,5-trifluorobenzene (tFBn) and hexafluorobenzene (hFBn), have been reported as potential candidates owing to their low donor numbers, electrochemical stability and compatibility with lithium salts. Their fluorinated functional groups also contribute to the formation of stable SEIs, which further improves the cycling performance of LIBs employing these electrolyte systems. These characteristics reveal the compelling potential of fluorinated benzene-derivatives to become the ideal additives for the next-generation HCEs of LIBs.\nDespite these advantages, several critical issues remain unsolved in the study of fluorinated benzene-derivatives. For example, previous studies have never systematically investigated the optimal concentration of each diluent for the optimal ionic conductivity. As a result, the most effective volume fraction for each diluent remains unclear, limiting the optimization for the performances of each diluent systems. Besides, the fundamental mechanism and importance of multiple features of diluent that dominate the enhancement of ionic conductivity have not been well analysized. The mechanistic insight linking the molecular features of diluents to the electrochemical performances of HCEs remains ambiguous. Fluorinated benzene-derivatives differ in multiple physical and chemical properties, such as the position and number of the F-functional groups, polarity and molecular size. These variations introduce multiple coupled variables, making it difficult to isolate the key features that dominate the improvement of ionic conductivity. Therefore, the absence of well-controlled, features-level analysis has hindered the deeper understanding of the recipe–property relationships in these systems.\nIn this study, these challenges are handled through experimental data-collection and data-driven model training and analysis. The ionic conductivities of 3 M LiFSI-DME electrolyte with FBn, dFBn, tFBn, hFBn additives at varying volume fractions were measured and the conductivity–concentration model for each diluent were constructed based on the experimental data. To determine the optimal concentration of diluents and the corresponding maximum ionic conductivities, polynomial fitting methods (second- and third-order, poly2 and poly3) were applied. To further improve the fitting accuracy and capture potential nonlinear relationships, machine learning models based on random forest (RF), support vector regression (SVR), and gaussian process regression (GPR) were attempted and evaluated by the coefficient of determination (R²) and root mean square error (RMSE). Based on the best-performing model, feature importance analysis and shapley additive explanations (SHAP) were employed to quantify the contributions of different molecular features to ionic conductivity. The key features that dominate the enhancement of the ionic conductivity were identified through these analysis. This study provides a systematic framework for electrolyte optimization by integrating experimental measurements with machine learning techniques. The strategy applied in this study offers new insights into electrolyte design and highlights the potential of data-driven methods to accelerate materials discovery in the emerging era of AI-assisted energy research.",
+        "polished_text": "Lithium-ion batteries (LIBs) have become a critical technology in the energy landscape, supporting applications ranging from portable electronics to electric vehicles and large-scale energy storage systems. Advantages such as high energy density, long cycle life, and relatively mature manufacturing processes have established LIBs as a key component in the transition toward carbon-neutral energy systems. In response to the demands for high performance and improved safety of LIBs, the development of advanced electrolyte systems has emerged as a critical research priority. Among the electrolytes studied, high-concentration electrolytes (HCEs), such as 3 M LiFSI dissolved in dimethoxyethane (DME), have attracted increasing attention. Compared with conventional dilute electrolytes, HCEs exhibit enhanced electrochemical stability, improved compatibility with high-voltage cathodes, and the ability to facilitate the formation of solid electrolyte interphases (SEI). These advantages derive from their unique solvation structure, in which a larger fraction of solvent molecules coordinate with lithium ions. However, HCEs still face significant challenges that limit their practical application, such as comparatively high viscosity and low ionic conductivity, which hinder their rate performance. In addition, sluggish ion transport facilitates lithium plating during the charging process, raising safety concerns and degrading battery lifespan.\n\nTo address these limitations, an effective strategy involving the introduction of diluents into HCEs has been widely explored. Diluents are typically non-coordinating or weakly coordinating solvents that can reduce the viscosity of the electrolyte without significantly disrupting the localized high-concentration solvation structure. By lowering the viscosity, diluents enhance the ionic conductivity of the electrolytes and ideally preserve the favorable SEI formation between HCEs and electrodes. Among various diluents, fluorinated benzene derivatives, such as fluorobenzene (FBn), 1,2-difluorobenzene (dFBn), 1,3,5-trifluorobenzene (tFBn), and hexafluorobenzene (hFBn), have been reported as promising candidates owing to their low donor numbers, electrochemical stability, and compatibility with lithium salts. Their fluorinated functional groups also contribute to the formation of stable SEIs, which further improves the cycling performance of LIBs employing these electrolyte systems. These characteristics reveal the compelling potential of fluorinated benzene derivatives as ideal additives for next-generation HCEs in LIBs.\n\nDespite these advantages, several critical questions remain unanswered in the study of fluorinated benzene derivatives. For example, previous studies have not systematically investigated the optimal concentration of each diluent for achieving maximum ionic conductivity. As a result, the most effective volume fraction for each diluent system remains unclear, limiting performance optimization. In addition, the fundamental mechanisms by which multiple diluent features enhance ionic conductivity have not been well analyzed. The mechanistic link between the molecular features of diluents and the electrochemical performance of HCEs remains ambiguous. Fluorinated benzene derivatives differ in multiple physical and chemical properties, such as the position and number of fluorine functional groups, polarity, and molecular size. These variations introduce multiple coupled variables, making it difficult to isolate the key features that drive improvements in ionic conductivity. Therefore, the absence of well-controlled, feature-level analysis has hindered deeper understanding of the composition–property relationships in these systems.\n\nIn this study, we address these challenges through experimental data collection and data-driven model training and analysis. We measured the ionic conductivities of 3 M LiFSI-DME electrolyte with FBn, dFBn, tFBn, and hFBn additives at varying volume fractions and constructed conductivity–concentration models for each diluent based on the experimental data. To determine the optimal concentration of diluents and the corresponding maximum ionic conductivities, we applied polynomial fitting methods (second- and third-order, poly2 and poly3). To further improve the fitting accuracy and capture potential nonlinear relationships, we evaluated machine learning models based on random forest (RF), support vector regression (SVR), and Gaussian process regression (GPR) using the coefficient of determination (R²) and root mean square error (RMSE). Based on the best-performing model, we employed feature importance analysis and Shapley additive explanations (SHAP) to quantify the contributions of different molecular features to ionic conductivity. Through these analyses, we identified the key features that drive the enhancement of ionic conductivity. This study provides a systematic framework for electrolyte optimization by integrating experimental measurements with machine learning techniques. The strategy applied in this work offers new insights into electrolyte design and highlights the potential of data-driven methods to accelerate materials discovery in the emerging era of AI-assisted energy research.",
+        "key_corrections": [
+          {
+            "type": "terminology",
+            "original": "carbon neutralization",
+            "corrected": "carbon-neutral",
+            "explanation": "Proper adjective form"
+          },
+          {
+            "type": "word_choice",
+            "original": "research target",
+            "corrected": "research priority",
+            "explanation": "More appropriate academic term"
+          },
+          {
+            "type": "redundancy",
+            "original": "mobility conductivity",
+            "corrected": "conductivity",
+            "explanation": "Removed redundancy"
+          },
+          {
+            "type": "formatting",
+            "original": "fluorinated benzene-derivatives",
+            "corrected": "fluorinated benzene derivatives",
+            "explanation": "Removed hyphen, standard chemistry nomenclature"
+          },
+          {
+            "type": "word_choice",
+            "original": "issues remain unsolved",
+            "corrected": "questions remain unanswered",
+            "explanation": "More natural phrasing"
+          },
+          {
+            "type": "spelling",
+            "original": "analysized",
+            "corrected": "analyzed",
+            "explanation": "Corrected spelling"
+          },
+          {
+            "type": "capitalization",
+            "original": "gaussian",
+            "corrected": "Gaussian",
+            "explanation": "Proper capitalization"
+          },
+          {
+            "type": "voice",
+            "original": "passive constructions in final paragraph",
+            "corrected": "active voice (we address, we measured, we applied)",
+            "explanation": "Changed to active voice for clarity"
+          }
+        ]
+      },
+      {
+        "session_number": 2,
+        "user_instruction": "Good, now please correct the following section with the same standards.",
+        "section": "Experimental Section",
+        "original_text": "Experimental Section\n2.1 Chemicals\nLithium bis(fluorosulfonyl)imide (LiFSI, > 99.9%, Sigma), dimethoxyethane (DME, > 99.0%, Kanto Chemical), fluorobenzene (FBn, >99.0%, TCI), 1,2-difluorobenzene (dFBn, >98.0%, TCI), 1,3,5-trifluorobenzene (tFBn, >98.0%, TCI), and hexafluorobenzene (hFBn, >99.0%, TCI) were used as received without further purification. All chemicals were transferred and handled exclusively inside an Ar-filled glovebox (Miwa Manufacturing, DBO-1KH-HMK) with water and oxygen levels maintained below 1 ppm to minimize moisture contamination.\n2.2 Electrolyte Preparation and Ionic Conductivity Measurement\nThe base high-concentration electrolyte was prepared by dissolving LiFSI salt in DME to achieve a concentration of 3 M (mol/L). The mixtures were stirred overnight at room temperature until clear and homogeneous solutions were obtained. The HCEs with FBn, dFBn, tFBn, and hFBn additives were prepared by gradually mixing the as-prepared 3 M LiFSI-DME and additive at the corresponding volume gractions, respectively. The mixtures were stirred for 30 min until clear and homogeneous solutions were obtained. The ionic conductivities of the electrolytes were measured using conductivity meter (Horiba, LAQUA F-2000C).\n2.3 Regression and Model Evaluation\nTo quantitatively describe the relationship between diluent concentration and ionic conductivity, five regression methods were employed: second-order polynomial (poly2), third-order polynomial (poly3), random forest (RF), support vector regression (SVR), and gaussian process regression (GPR).\nThe experimental data for each diluent system were fitted using these methods, and model performance was evaluated using the coefficient of determination (R²) and root mean square error (RMSE). To ensure robustness and avoid overfitting, a leave-one-out cross-validation (LOOCV) approach was adopted. In this method, each data point was sequentially excluded from the training set and used as a test sample, and the resulting prediction errors were aggregated to compute R² and RMSE for each model.\n2.4 Density Functional Theory (DFT) Calculations\nDensity functional theory (DFT) calculations were performed to calculate the electron properties of FBn, dFBn, tFBn and hFBn . All calculations were performed using the GAUSSIAN software package with the B3LYP exchange correlation functional and the 6-31++G(d,p) basis set. 'opt=tight' keyword was used to obtain the most stable structures for all individual diluent molecules. The highest occupied molecular orbital (HOMO), lowest unoccupied molecular orbital (LUMO) energies and the energy gaps of HOMO and LUMO (HOMO/LUMO gap) were calculated, respectively.\n2.5 Feature Analysis\nFeature analysis was conducted based on poly3, the best-performing regression model identified in the results and discussion section. A series of molecular features, including the molecular weight, viscosity coefficient, dielectric constant, dipole moment, HOMO energy, LUMO energy and HOMO/LUMO gap were used. The HOMO energy, LUMO energy and HOMO/LUMO gap were obtained from DFT calculations, while other features were obtained from literature sources.\nTo evaluate the contribution of each feature to the ionic conductivity, random forest importance (RF importance), permutation importance and shapley additive explanations (SHAP) were applied to access and quantify the relative influence of each feature on the ionic conductivity of electrolytes. These combined approaches enabled the identification of key features dominating the enhancement of the ionic conductivity in the diluent-HCEs systems.",
+        "polished_text": "Experimental Section\n\n2.1 Chemicals\nLithium bis(fluorosulfonyl)imide (LiFSI, >99.9%, Sigma), dimethoxyethane (DME, >99.0%, Kanto Chemical), fluorobenzene (FBn, >99.0%, TCI), 1,2-difluorobenzene (dFBn, >98.0%, TCI), 1,3,5-trifluorobenzene (tFBn, >98.0%, TCI), and hexafluorobenzene (hFBn, >99.0%, TCI) were used as received without further purification. All chemicals were transferred and handled exclusively inside an Ar-filled glovebox (Miwa Manufacturing, DBO-1KH-HMK) with water and oxygen levels maintained below 1 ppm to minimize moisture contamination.\n\n2.2 Electrolyte Preparation and Ionic Conductivity Measurement\nThe base high-concentration electrolyte was prepared by dissolving LiFSI salt in DME to achieve a concentration of 3 M (mol L⁻¹). The mixtures were stirred overnight at room temperature until clear, homogeneous solutions were obtained. The HCEs with FBn, dFBn, tFBn, and hFBn additives were prepared by gradually mixing the as-prepared 3 M LiFSI-DME with each additive at the corresponding volume fractions. The mixtures were stirred for 30 min until clear, homogeneous solutions were obtained. The ionic conductivities of the electrolytes were measured using a conductivity meter (Horiba, LAQUA F-2000C).\n\n2.3 Regression and Model Evaluation\nTo quantitatively describe the relationship between diluent concentration and ionic conductivity, five regression methods were employed: second-order polynomial (poly2), third-order polynomial (poly3), random forest (RF), support vector regression (SVR), and Gaussian process regression (GPR).\n\nThe experimental data for each diluent system were fitted using these methods, and model performance was evaluated using the coefficient of determination (R²) and root mean square error (RMSE). To ensure robustness and avoid overfitting, a leave-one-out cross-validation (LOOCV) approach was adopted. In this method, each data point was sequentially excluded from the training set and used as a test sample, and the resulting prediction errors were aggregated to compute R² and RMSE for each model.\n\n2.4 Density Functional Theory (DFT) Calculations\nDensity functional theory (DFT) calculations were performed to compute the electronic properties of FBn, dFBn, tFBn, and hFBn. All calculations were performed using the Gaussian software package with the B3LYP exchange-correlation functional and the 6-31++G(d,p) basis set. The 'opt=tight' keyword was used to obtain the most stable structures for all individual diluent molecules. The highest occupied molecular orbital (HOMO) energy, lowest unoccupied molecular orbital (LUMO) energy, and the HOMO–LUMO energy gap were calculated for each molecule.\n\n2.5 Feature Analysis\nFeature analysis was conducted based on poly3, the best-performing regression model identified in the Results and Discussion section. A series of molecular features, including molecular weight, viscosity coefficient, dielectric constant, dipole moment, HOMO energy, LUMO energy, and HOMO–LUMO gap, were used. The HOMO energy, LUMO energy, and HOMO–LUMO gap were obtained from DFT calculations, while other features were obtained from literature sources.\n\nTo evaluate the contribution of each feature to ionic conductivity, random forest importance (RF importance), permutation importance, and Shapley additive explanations (SHAP) were applied to assess and quantify the relative influence of each feature on the ionic conductivity of electrolytes. These combined approaches enabled the identification of key features driving the enhancement of ionic conductivity in the diluent-HCE systems.",
+        "key_corrections": [
+          {
+            "type": "unit_notation",
+            "original": "3 M (mol/L)",
+            "corrected": "3 M (mol L⁻¹)",
+            "explanation": "Standard SI unit notation"
+          },
+          {
+            "type": "spelling",
+            "original": "volume gractions",
+            "corrected": "volume fractions",
+            "explanation": "Spelling error"
+          },
+          {
+            "type": "article",
+            "original": "conductivity meter",
+            "corrected": "a conductivity meter",
+            "explanation": "Added article"
+          },
+          {
+            "type": "capitalization",
+            "original": "gaussian",
+            "corrected": "Gaussian",
+            "explanation": "Software name capitalization"
+          },
+          {
+            "type": "hyphenation",
+            "original": "exchange correlation",
+            "corrected": "exchange-correlation",
+            "explanation": "Technical term requires hyphen"
+          },
+          {
+            "type": "terminology",
+            "original": "electron properties",
+            "corrected": "electronic properties",
+            "explanation": "More accurate term"
+          },
+          {
+            "type": "word_choice",
+            "original": "calculate",
+            "corrected": "compute",
+            "explanation": "More appropriate in computational context"
+          },
+          {
+            "type": "simplification",
+            "original": "the energy gaps of HOMO and LUMO",
+            "corrected": "the HOMO–LUMO energy gap",
+            "explanation": "More concise and professional"
+          },
+          {
+            "type": "capitalization",
+            "original": "shapley",
+            "corrected": "Shapley",
+            "explanation": "Proper noun (person's name)"
+          },
+          {
+            "type": "word_choice",
+            "original": "access",
+            "corrected": "assess",
+            "explanation": "Correct verb"
+          },
+          {
+            "type": "word_choice",
+            "original": "dominating",
+            "corrected": "driving",
+            "explanation": "More natural expression"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_sessions": 2,
+      "sections_edited": [
+        "Introduction/Background",
+        "Experimental Section"
+      ],
+      "common_error_types": [
+        "spelling errors",
+        "incorrect article usage",
+        "non-standard unit notation",
+        "improper capitalization",
+        "awkward phrasing",
+        "redundancy",
+        "incorrect hyphenation in technical terms"
+      ],
+      "editing_principles": [
+        "Maintain original structure and logic",
+        "Use clear, direct language consistent with Nature/Science style",
+        "Ensure technical terminology is precise and accessible",
+        "Improve sentence flow and readability",
+        "Apply active voice where appropriate",
+        "Follow standard scientific notation and formatting",
+        "Avoid overly sophisticated vocabulary"
+      ]
+    }
+  }
+}

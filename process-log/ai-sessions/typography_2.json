@@ -1,0 +1,93 @@
+{
+  "project": "LaTeX Subfigure Formatting and Referencing",
+  "date": "2026-04-01",
+  "language": "English",
+  "records": [
+    {
+      "step": 1,
+      "user_query": "How to place subfigure labels (A, B, C, D...) at the top-left corner instead of below the image in LaTeX?",
+      "assistant_response": "Use overlay methods such as the overpic or tikz package. Example with overpic: place \\put(x,y){(A)} inside the image to control position. Coordinates are percentages. Recommended position is around (5,90)."
+    },
+    {
+      "step": 2,
+      "user_query": "Where should I insert the relative path for images in method 1?",
+      "assistant_response": "The image path is placed inside \\begin{overpic}{...}. Examples include same directory, subfolder (figures/image.png), or deeper paths. Use forward slashes and avoid spaces or special characters."
+    },
+    {
+      "step": 3,
+      "user_query": "Compilation error occurred. Please check.",
+      "assistant_response": "Root cause identified as usage of '%' in file path. In LaTeX, % is a comment character and breaks parsing. Recommended to rename folder (e.g., replace '%' with 'pct')."
+    },
+    {
+      "step": 4,
+      "user_query": "Still not working after fixing % issue.",
+      "assistant_response": "Error indicates file not found. Possible causes: incorrect path, wrong directory level, case sensitivity mismatch, corrupted PDF, or wrong compiler. Suggested minimal working example for debugging."
+    },
+    {
+      "step": 5,
+      "user_query": "Labels (A)(B) overlap with image content. How to fix?",
+      "assistant_response": "Add background using \\colorbox{white}{(A)} or adjust position. Optional improvements include transparency, borders, or resizing label text."
+    },
+    {
+      "step": 6,
+      "user_query": "How to insert a line break between subfigures?",
+      "assistant_response": "Recommended to use \\par or \\par\\medskip. Alternatives include \\\\ or \\newline. \\par is most standard."
+    },
+    {
+      "step": 7,
+      "user_query": "Provide a template for a single image (no subfigure).",
+      "assistant_response": "Standard figure environment with \\includegraphics, \\caption, and \\label. Optional overlay labeling with overpic."
+    },
+    {
+      "step": 8,
+      "user_query": "Which packages are needed for \\label referencing?",
+      "assistant_response": "\\label and \\ref require no extra packages. Recommended enhancements: hyperref (clickable links) and cleveref (automatic labeling)."
+    },
+    {
+      "step": 9,
+      "user_query": "How to reference subfigure labels?",
+      "assistant_response": "Place \\label after \\caption in each subfigure. Use \\ref for basic referencing or \\subref for formatted output like Figure 1(a). cleveref can automate formatting."
+    },
+    {
+      "step": 10,
+      "user_query": "Warning appears in subfigure code. What's wrong?",
+      "assistant_response": "Missing \\caption in subfigure. \\label must follow \\caption to bind correctly. Even empty \\caption{} is required."
+    },
+    {
+      "step": 11,
+      "user_query": "How to hide caption and convert 1a to 1A in references?",
+      "assistant_response": "Use \\renewcommand{\\thesubfigure}{\\Alph{subfigure}} to change to uppercase. Keep \\caption{} for functionality. Optionally adjust caption formatting."
+    },
+    {
+      "step": 12,
+      "user_query": "How to remove the (A) below the image while keeping the one inside?",
+      "assistant_response": "Use \\captionsetup[subfigure]{labelformat=empty} to hide subfigure labels below images while preserving referencing functionality."
+    },
+    {
+      "step": 13,
+      "user_query": "Convert entire conversation into a JSON file in English.",
+      "assistant_response": "Structured JSON created with all steps, translated into English, preserving technical detail."
+    }
+  ],
+  "key_configurations": {
+    "packages": [
+      "graphicx",
+      "subcaption",
+      "overpic",
+      "xcolor",
+      "hyperref",
+      "cleveref"
+    ],
+    "important_settings": [
+      "\\renewcommand{\\thesubfigure}{\\Alph{subfigure}}",
+      "\\captionsetup[subfigure]{labelformat=empty}"
+    ],
+    "best_practices": [
+      "Always place \\label after \\caption",
+      "Avoid special characters in file paths",
+      "Use relative paths correctly",
+      "Keep \\caption{} even if empty",
+      "Use overlay methods for flexible labeling"
+    ]
+  }
+}

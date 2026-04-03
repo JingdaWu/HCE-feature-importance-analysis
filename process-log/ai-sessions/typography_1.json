@@ -1,0 +1,152 @@
+{
+  "project": "LaTeX Bibliography Configuration with biblatex + biber",
+  "environment": {
+    "editor": "VS Code",
+    "latex_distribution": "MiKTeX",
+    "compiler": "pdflatex + biber",
+    "location_context": "local Windows system"
+  },
+  "timeline": [
+    {
+      "step": 1,
+      "user_issue": "How to insert references from a .bib file in LaTeX with numbered citations, hyperlinks, and Elsevier-style references including DOI links",
+      "assistant_solution": {
+        "approach": "Use biblatex + biber instead of BibTeX",
+        "preamble": [
+          "\\usepackage[backend=biber,style=numeric,sorting=none,doi=true,url=false]{biblatex}",
+          "\\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}",
+          "\\addbibresource{references.bib}"
+        ],
+        "doi_format": "\\DeclareFieldFormat{doi}{\\href{https://doi.org/#1}{doi:#1}}",
+        "citation": "\\cite{key}",
+        "bibliography": "\\printbibliography"
+      },
+      "key_point": "biblatex handles numbering, formatting, and DOI links automatically"
+    },
+    {
+      "step": 2,
+      "user_issue": "Confusion about compilation steps pdflatex → biber → pdflatex → pdflatex",
+      "assistant_explanation": {
+        "pdflatex_1": "Generates auxiliary files (.bcf)",
+        "biber": "Processes .bib and creates .bbl",
+        "pdflatex_2": "Inserts bibliography",
+        "pdflatex_3": "Fixes cross-references and hyperlinks"
+      },
+      "key_point": "Multiple compilation passes are required for references to resolve correctly"
+    },
+    {
+      "step": 3,
+      "user_issue": "How to configure recipe in VS Code",
+      "assistant_solution": {
+        "location": "settings.json",
+        "tools": [
+          {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": ["-interaction=nonstopmode", "-synctex=1", "%DOC%"]
+          },
+          {
+            "name": "biber",
+            "command": "biber",
+            "args": ["%DOCFILE%"]
+          }
+        ],
+        "recipe": {
+          "name": "pdflatex -> biber -> pdflatex*2",
+          "tools": ["pdflatex", "biber", "pdflatex", "pdflatex"]
+        }
+      },
+      "key_point": "Recipe automates full compilation workflow"
+    },
+    {
+      "step": 4,
+      "user_issue": "Multiple LaTeX errors (documentclass duplication, hyperref clash, biblatex conflict)",
+      "assistant_solution": {
+        "fixes": [
+          "Keep only one \\documentclass",
+          "Load hyperref only once",
+          "Remove \\bibliographystyle when using biblatex",
+          "Ensure all packages are in preamble"
+        ]
+      },
+      "key_point": "Do not mix BibTeX and biblatex systems"
+    },
+    {
+      "step": 5,
+      "user_issue": "References title not showing",
+      "assistant_solution": [
+        "\\printbibliography[title={References}]",
+        "or define globally using \\DefineBibliographyStrings"
+      ],
+      "root_cause": "Bibliography was empty, so no title displayed"
+    },
+    {
+      "step": 6,
+      "user_issue": "Compilation error: file not found",
+      "assistant_solution": {
+        "cause": "Wrong working directory",
+        "fix": [
+          "cd into correct folder",
+          "or use full path",
+          "or use VS Code build command"
+        ]
+      },
+      "key_point": "LaTeX only searches current directory"
+    },
+    {
+      "step": 7,
+      "user_issue": "Bibliography empty",
+      "assistant_solution": {
+        "checks": [
+          "Ensure \\cite{} is used",
+          "Ensure .bib file is loaded",
+          "Ensure biber runs successfully",
+          "Check key matching"
+        ],
+        "quick_fix": "\\nocite{*}"
+      },
+      "key_point": "No citation = no bibliography output"
+    },
+    {
+      "step": 8,
+      "user_issue": "DOI not appearing",
+      "assistant_solution": {
+        "cause": "Missing doi field in .bib",
+        "fix": "Add doi={...} manually or via reference manager"
+      },
+      "key_point": "biblatex only prints DOI if provided in .bib"
+    },
+    {
+      "step": 9,
+      "user_issue": "DOI link too long and overflows line",
+      "assistant_solution_attempts": [
+        "Use xurl package",
+        "Adjust biburl penalties",
+        "Use \\nolinkurl for better line breaking"
+      ],
+      "final_solution": {
+        "approach": "Force DOI to new line",
+        "code": "\\DeclareFieldFormat{doi}{\\par\\noindent\\href{https://doi.org/#1}{\\nolinkurl{doi:#1}}}"
+      },
+      "key_point": "Moving DOI to a new line is the most stable formatting solution"
+    }
+  ],
+  "final_configuration": {
+    "packages": [
+      "\\usepackage{xurl}",
+      "\\usepackage[backend=biber,style=numeric,sorting=none,doi=true,url=false]{biblatex}",
+      "\\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}"
+    ],
+    "bib_resource": "\\addbibresource{references.bib}",
+    "doi_format": "\\DeclareFieldFormat{doi}{\\par\\noindent\\href{https://doi.org/#1}{\\nolinkurl{doi:#1}}}",
+    "bibliography_command": "\\printbibliography[title={References}]"
+  },
+  "key_learnings": [
+    "biblatex and BibTeX cannot be mixed",
+    "biber must be executed for bibliography generation",
+    "citations must exist for references to appear",
+    "file paths and working directory are critical in LaTeX compilation",
+    "DOI formatting often requires customization for proper line breaking",
+    "forcing DOI to a new line provides the most robust layout"
+  ]
+}
