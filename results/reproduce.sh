@@ -65,14 +65,19 @@ else
         echo "----------------------------------------"
         echo "Running: $script"
         
+        log_file="output/$(basename $script).log"
+        python3 "$script" > "$log_file" 2>&1
+        exit_code=$?
+        
         # 运行脚本并捕获输出
-        if python3 "$script" 2>&1; then
+        if [ $exit_code -eq 0 ]; then
             count=$((count+1))
             echo "✓ SUCCESS: $script"
         else
             exit_code=$?
             failed=$((failed+1))
             echo "✗ FAILED: $script (exit code: $exit_code)"
+            grep -v "findfont: Font family 'Arial'" "$log_file" | tail -n 30
             echo "Continuing with other scripts..."
         fi
     done
