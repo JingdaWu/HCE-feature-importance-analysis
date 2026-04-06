@@ -8,8 +8,17 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.inspection import permutation_importance
 
-feature_file = r"data\diluent_feature.csv"
-target_file = r"results/diluent_vol_conductivity_poly3_fit/diluent_vol_conductivity_poly3_fit.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+feature_file = os.path.join(BASE_DIR, "..", "data", "diluent_feature.csv")
+
+target_file = os.path.join(
+    BASE_DIR,
+    "..",
+    "results",
+    "diluent_vol_conductivity_poly3_fit",
+    "diluent_vol_conductivity_poly3_fit.csv"
+)
 
 fig_dir = "Figures/feature_analysis"
 res_dir = "results/feature_analysis"
