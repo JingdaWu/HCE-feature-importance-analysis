@@ -4,7 +4,8 @@ import os
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
-file_path = r"data\diluent_model_R2_data.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "..", "data", "diluent_model_R2_data.csv")
 df = pd.read_csv(file_path, index_col=0)
 
 plt.rcParams['font.family'] = 'Arial'
