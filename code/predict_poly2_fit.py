@@ -10,7 +10,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from matplotlib.ticker import MultipleLocator
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(BASE_DIR, "data", "diluent_vol_conductivity_data.csv")
+file_path = os.path.join(BASE_DIR, "..", "data", "diluent_vol_conductivity_data.csv")
 df = pd.read_csv(file_path, header=None)
 
 additives = df.iloc[0, 1:6].values
