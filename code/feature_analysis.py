@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import shap
 
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing import StandardScaler
 from sklearn.inspection import permutation_importance
 
 feature_file = r"data\diluent_feature.csv"
@@ -147,13 +146,35 @@ plt.tight_layout()
 plt.savefig(f"{fig_dir}/permutation_importance.pdf", dpi=600)
 plt.close()
 
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+# ============================================================
+# SHAP analysis based on the same RF model used above
+# Reviewer revision:
+# RF feature importance, permutation importance, and SHAP values
+# are now computed from the same model fitted on the unscaled X.
+# Random Forest does not require feature scaling.
+# ============================================================
 
-rf_model.fit(X_scaled, y)
+explainer = shap.Explainer(rf_model, X)
+shap_values = explainer(X)
 
-explainer = shap.Explainer(rf_model, X_scaled)
-shap_values = explainer(X_scaled)
+# Save raw SHAP values for reproducibility
+shap_value_df = pd.DataFrame(
+    shap_values.values,
+    columns=X.columns
+)
+
+shap_value_df.insert(0, "Diluent", df["Diluent"].values)
+shap_value_df.to_csv(f"{res_dir}/shap_values.csv", index=False)
+
+# Mean absolute SHAP values from the full RF model
+mean_abs_shap = np.abs(shap_values.values).mean(axis=0)
+
+shap_importance_df = pd.DataFrame({
+    "Feature": X.columns,
+    "Mean Absolute SHAP": mean_abs_shap
+}).sort_values("Mean Absolute SHAP", ascending=False)
+
+shap_importance_df.to_csv(f"{res_dir}/shap_importance.csv", index=False)
 
 plt.figure(figsize=(6,4))
 
@@ -182,6 +203,86 @@ for side in ["left", "right", "top", "bottom"]:
 
 plt.tight_layout()
 plt.savefig(f"{fig_dir}/shap_summary.pdf", dpi=600)
+plt.close()
+
+
+# ============================================================
+# Leave-one-out SHAP uncertainty analysis
+# Reviewer revision:
+# Estimate uncertainty in SHAP feature importance using four
+# leave-one-out subsets. Each subset trains an RF model on n-1
+# diluents and computes mean absolute SHAP values.
+# ============================================================
+
+loo_shap_records = []
+
+for left_out_idx in range(len(X)):
+
+    X_train = X.drop(index=X.index[left_out_idx])
+    y_train = y.drop(index=y.index[left_out_idx])
+
+    loo_rf = RandomForestRegressor(
+        n_estimators=200,
+        random_state=42
+    )
+
+    loo_rf.fit(X_train, y_train)
+
+    loo_explainer = shap.Explainer(loo_rf, X_train)
+    loo_shap_values = loo_explainer(X_train)
+
+    loo_mean_abs_shap = np.abs(loo_shap_values.values).mean(axis=0)
+
+    for feature, value in zip(X.columns, loo_mean_abs_shap):
+        loo_shap_records.append({
+            "Left-out diluent": df["Diluent"].iloc[left_out_idx],
+            "Feature": feature,
+            "Mean Absolute SHAP": value
+        })
+
+loo_shap_df = pd.DataFrame(loo_shap_records)
+loo_shap_df.to_csv(f"{res_dir}/loo_shap_values.csv", index=False)
+
+# Summary statistics across the four leave-one-out subsets
+loo_summary_df = (
+    loo_shap_df
+    .groupby("Feature")["Mean Absolute SHAP"]
+    .agg(["mean", "std", "min", "max"])
+    .reset_index()
+)
+
+# 95% confidence interval estimated from the four LOO subsets.
+# Because n = 4, this interval should be interpreted only as an
+# uncertainty indicator rather than a statistically robust CI.
+loo_summary_df["ci95_low"] = loo_summary_df["mean"] - 1.96 * loo_summary_df["std"] / np.sqrt(4)
+loo_summary_df["ci95_high"] = loo_summary_df["mean"] + 1.96 * loo_summary_df["std"] / np.sqrt(4)
+
+loo_summary_df = loo_summary_df.sort_values("mean", ascending=False)
+loo_summary_df.to_csv(f"{res_dir}/loo_shap_uncertainty.csv", index=False)
+
+plt.figure(figsize=(6,4))
+
+plt.barh(
+    loo_summary_df["Feature"],
+    loo_summary_df["mean"],
+    xerr=1.96 * loo_summary_df["std"] / np.sqrt(4),
+    color='red',
+    capsize=3
+)
+
+ax = plt.gca()
+
+ax.invert_yaxis()
+
+plt.xlabel("LOO Mean Absolute SHAP", fontsize=12, fontname='Arial')
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12, fontname='Arial')
+
+for spine in plt.gca().spines.values():
+    spine.set_linewidth(1.2)
+
+plt.tight_layout()
+plt.savefig(f"{fig_dir}/loo_shap_uncertainty.pdf", dpi=600)
 plt.close()
 
 print("DONE.")
