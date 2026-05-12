@@ -1,0 +1,1133 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ref.1}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6a4df92310cc9382396d662f78f06674}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3e07c2e8303e07b76e6d8594a784bd0e}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8264c225fee634d1d1fbec1c3e498e07}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhongwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d084ff7a0c7d6694fc14f1dd07eb6974}{%
+           family={Amine},
+           familyi={A\bibinitperiod},
+           given={Khalil},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9a8dede9c42f6a22df47c8bc1f1bcd42}
+      \strng{fullhash}{0033c5110d67a596b558cba030d2455a}
+      \strng{fullhashraw}{0033c5110d67a596b558cba030d2455a}
+      \strng{bibnamehash}{9a8dede9c42f6a22df47c8bc1f1bcd42}
+      \strng{authorbibnamehash}{9a8dede9c42f6a22df47c8bc1f1bcd42}
+      \strng{authornamehash}{9a8dede9c42f6a22df47c8bc1f1bcd42}
+      \strng{authorfullhash}{0033c5110d67a596b558cba030d2455a}
+      \strng{authorfullhashraw}{0033c5110d67a596b558cba030d2455a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced materials}
+      \field{number}{33}
+      \field{title}{30 years of lithium-ion batteries}
+      \field{volume}{30}
+      \field{year}{2018}
+      \field{pages}{1800561}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/adma.201800561
+      \endverb
+    \endentry
+    \entry{ref.2}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=60f6846cd62836e0d55e17e5105c791e}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{fullhash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{fullhashraw}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{bibnamehash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{authorbibnamehash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{authornamehash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{authorfullhash}{60f6846cd62836e0d55e17e5105c791e}
+      \strng{authorfullhashraw}{60f6846cd62836e0d55e17e5105c791e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Science \& Engineering}
+      \field{number}{5}
+      \field{title}{Li-ion batteries: basics, progress, and challenges}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{385\bibrangedash 418}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1002/ese3.95
+      \endverb
+    \endentry
+    \entry{ref.3}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=8d624ca5c4e5bb69ed7c66e0518820cf}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod}}}%
+        {{hash=56b844200346a44cc349e893b63854af}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bbdc762b63b3adc404ec8f9d4ce657ff}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=aa56131cce5ae350bba004befd9bf61f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ji-Guang},
+           giveni={J\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{d5ac81042cf74fc3b534bc2c5e829c99}
+      \strng{fullhash}{ea357963a47a29cadb5129896a6dabac}
+      \strng{fullhashraw}{ea357963a47a29cadb5129896a6dabac}
+      \strng{bibnamehash}{d5ac81042cf74fc3b534bc2c5e829c99}
+      \strng{authorbibnamehash}{d5ac81042cf74fc3b534bc2c5e829c99}
+      \strng{authornamehash}{d5ac81042cf74fc3b534bc2c5e829c99}
+      \strng{authorfullhash}{ea357963a47a29cadb5129896a6dabac}
+      \strng{authorfullhashraw}{ea357963a47a29cadb5129896a6dabac}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Electrochemical Society}
+      \field{number}{1}
+      \field{title}{Localized high-concentration electrolytes for lithium batteries}
+      \field{volume}{168}
+      \field{year}{2021}
+      \field{pages}{010522}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1149/1945-7111/abd60e
+      \endverb
+    \endentry
+    \entry{ref.4}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=13556cd262c1da90739e8ee370975b8f}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Luna},
+           giveni={L\bibinitperiod}}}%
+        {{hash=67dfdceae9a3dfa4e211efb18f306494}{%
+           family={Matsui},
+           familyi={M\bibinitperiod},
+           given={Yukiko},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d556f437e0f7f36df493b6b813029962}{%
+           family={Deguchi},
+           familyi={D\bibinitperiod},
+           given={Minako},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bfb43d7602fa00cf6f5be9d2ca2d6090}{%
+           family={Hakari},
+           familyi={H\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f9b79a2af39b94c97561f08456013fec}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Masayoshi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=867650c43996663e620974851776080a}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{8b12bab0e1936d3ebce80777d69f0058}
+      \strng{fullhash}{ede0e657edfb477239a81e30824747db}
+      \strng{fullhashraw}{ede0e657edfb477239a81e30824747db}
+      \strng{bibnamehash}{8b12bab0e1936d3ebce80777d69f0058}
+      \strng{authorbibnamehash}{8b12bab0e1936d3ebce80777d69f0058}
+      \strng{authornamehash}{8b12bab0e1936d3ebce80777d69f0058}
+      \strng{authorfullhash}{ede0e657edfb477239a81e30824747db}
+      \strng{authorfullhashraw}{ede0e657edfb477239a81e30824747db}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Applied Materials \& Interfaces}
+      \field{number}{31}
+      \field{title}{Improvement of Lithium--Sulfur Battery Performance by Porous Carbon Selection and LiFSI/DME Electrolyte Optimization}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{pages}{37467\bibrangedash 37476}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/acsami.3c06624
+      \endverb
+    \endentry
+    \entry{ref.5}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=50d1d81e0dd388a0b033adac55fa317e}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Chunxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=19b7cf2a496979c671740c65fa82dcce}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dcc7b72bdfff0fe5a9878d8fb7eaa0e2}{%
+           family={Suo},
+           familyi={S\bibinitperiod},
+           given={Liumin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{fullhash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{fullhashraw}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{bibnamehash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{authorbibnamehash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{authornamehash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{authorfullhash}{dab9d6f9137ab0744d3732a034ea92a9}
+      \strng{authorfullhashraw}{dab9d6f9137ab0744d3732a034ea92a9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Futures}
+      \field{number}{1}
+      \field{title}{Concentrated electrolytes for rechargeable lithium metal batteries}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{pages}{012101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/2752-5724/acac68
+      \endverb
+    \endentry
+    \entry{ref.6}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=ed87dde4cd15aadf01505679f5137aca}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jiangtao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=95bc0fc964fa8ddb57d5535e4da04172}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Yuchen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=eebb369344830da03784cf2200ee062b}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Guorui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2f4623a7a3b70aa5874d2630105a76eb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Weiyuan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b30d47f57311e4afb7c80331fd4d6f10}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=76812a6e7b7245b593aa78abeaeec952}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Luyi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bacbbbe66d531fc28af37fab0097a611}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{d61733ae41a1aeeb83ff7cbe8372471e}
+      \strng{fullhash}{a3eebea3bf0503ba2fb5194a01bcf62e}
+      \strng{fullhashraw}{a3eebea3bf0503ba2fb5194a01bcf62e}
+      \strng{bibnamehash}{d61733ae41a1aeeb83ff7cbe8372471e}
+      \strng{authorbibnamehash}{d61733ae41a1aeeb83ff7cbe8372471e}
+      \strng{authornamehash}{d61733ae41a1aeeb83ff7cbe8372471e}
+      \strng{authorfullhash}{a3eebea3bf0503ba2fb5194a01bcf62e}
+      \strng{authorfullhashraw}{a3eebea3bf0503ba2fb5194a01bcf62e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aggregate}
+      \field{number}{1}
+      \field{title}{Influence of electrolyte structural evolution on battery applications: Cationic aggregation from dilute to high concentration}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{e153}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/agt2.153
+      \endverb
+    \endentry
+    \entry{ref.7}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=dfafe2419d854a4b2fd6147a37598d15}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jianming},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09134bf7de8575b6dc091921796dcd32}{%
+           family={Lochala},
+           familyi={L\bibinitperiod},
+           given={Joshua\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1bd47ef27ecbd2a693082e99649fae29}{%
+           family={Kwok},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2d614f18cfbf3cf8cd2b44d1434287df}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhiqun\bibnamedelima Daniel},
+           giveni={Z\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=048d7d8b7066407722ef07cce9a1ab3f}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5c91858402903d2d1e6d81e100b7622f}
+      \strng{fullhash}{ef0b924042c070b5aee832c2aaebc09a}
+      \strng{fullhashraw}{ef0b924042c070b5aee832c2aaebc09a}
+      \strng{bibnamehash}{5c91858402903d2d1e6d81e100b7622f}
+      \strng{authorbibnamehash}{5c91858402903d2d1e6d81e100b7622f}
+      \strng{authornamehash}{5c91858402903d2d1e6d81e100b7622f}
+      \strng{authorfullhash}{ef0b924042c070b5aee832c2aaebc09a}
+      \strng{authorfullhashraw}{ef0b924042c070b5aee832c2aaebc09a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Science}
+      \field{number}{8}
+      \field{title}{Research progress towards understanding the unique interfaces between concentrated electrolytes and electrodes for energy storage applications}
+      \field{volume}{4}
+      \field{year}{2017}
+      \field{pages}{1700032}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/advs.201700032
+      \endverb
+    \endentry
+    \entry{ref.8}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=7fb9ccb5d0f22243f5d273c438b4f2fe}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Hongji},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9ea2c417d5b5445f1d533229d50d1637}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tiantian},
+           giveni={T\bibinitperiod}}}%
+        {{hash=97fee3bd2c7880d6d489a39bfbbc1f67}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yanxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b866729c4f8027ba72dff20c6ac3c8a5}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Jingjing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=54a3c319195500d522f4318c883d3e82}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d22372aa611749e5a77e2e25a816f7b6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zeyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8eba4a871ebc13361f3c7d7f934955f3}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Chunlei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aa1acc2a84a2dd0932c3e8bedbacdb7f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Nanshan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=aeb97d49ee896d139288a0468a0c2d50}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=86d8cd66cb62928ca1ec636d8cd2e11c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{f24e8aff7662ffd186026f17e4098ae3}
+      \strng{fullhash}{bafadb677eee59682666d349ddc23b06}
+      \strng{fullhashraw}{bafadb677eee59682666d349ddc23b06}
+      \strng{bibnamehash}{f24e8aff7662ffd186026f17e4098ae3}
+      \strng{authorbibnamehash}{f24e8aff7662ffd186026f17e4098ae3}
+      \strng{authornamehash}{f24e8aff7662ffd186026f17e4098ae3}
+      \strng{authorfullhash}{bafadb677eee59682666d349ddc23b06}
+      \strng{authorfullhashraw}{bafadb677eee59682666d349ddc23b06}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{Revisiting Fluorobenzene as Diluents in Ether-Based Electrolytes for Lithium Metal Batteries}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{9813}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-025-64784-2
+      \endverb
+    \endentry
+    \entry{ref.9}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ee95fcb2175e2d510e4a8a7327aa0765}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Junyeob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d1ed23faf603ff9735c3daca136d7f55}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Dong\bibnamedelima Ok},
+           giveni={D\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=1a9d8f0ac9f7c8dd26b28e48fdb59623}{%
+           family={Bekaert},
+           familyi={B\bibinitperiod},
+           given={Lieven},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fb05f20cd803e1737e5fbd02be2dd86f}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Munsoo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2f046b50c88cc359149c2b0a1bea733a}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jinkyu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d7e7e44c62e12e0b8bc291c317448902}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Danwon},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f34a6d49277f9fbd9042bb6d61ce8305}{%
+           family={Hubin},
+           familyi={H\bibinitperiod},
+           given={Annick},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e67f91751a11b8ca953263056f33b48}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jongwoo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{58b03d4733fb0e829f5146faba77793e}
+      \strng{fullhash}{9135fa15f54342c1a6c189ac629ce52f}
+      \strng{fullhashraw}{9135fa15f54342c1a6c189ac629ce52f}
+      \strng{bibnamehash}{58b03d4733fb0e829f5146faba77793e}
+      \strng{authorbibnamehash}{58b03d4733fb0e829f5146faba77793e}
+      \strng{authornamehash}{58b03d4733fb0e829f5146faba77793e}
+      \strng{authorfullhash}{9135fa15f54342c1a6c189ac629ce52f}
+      \strng{authorfullhashraw}{9135fa15f54342c1a6c189ac629ce52f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{Non-fluorinated non-solvating cosolvent enabling superior performance of lithium metal negative electrode battery}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{4538}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-022-32192-5
+      \endverb
+    \endentry
+    \entry{ref.10}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e1760e2eac869b7d82f1b72e0a92e796}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Ziqi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=67079908929f394f6891ad9b150284c2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Renjie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0d20d23fc24a5486d2e26253d04c7371}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yuanke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0b61e9661067d0a906cff8be51415c72}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a31ce7673dcd44408d2f912ab6ed1e82}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ffee218a011732dcbe0798aa23b2dc91}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Mengchuang},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4af8dff6eb3e810ee875e4b9bf54b045}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2ff4c13ef1a6d55f29e94ffb8dc4f170}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{fullhash}{aa842e51c587d9dd5521f1a9e9873c34}
+      \strng{fullhashraw}{aa842e51c587d9dd5521f1a9e9873c34}
+      \strng{bibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authorbibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authornamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authorfullhash}{aa842e51c587d9dd5521f1a9e9873c34}
+      \strng{authorfullhashraw}{aa842e51c587d9dd5521f1a9e9873c34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Storage Materials}
+      \field{title}{1, 3, 5-Trifluorobenzene and fluorobenzene co-assisted electrolyte with thermodynamic and interfacial stabilities for high-voltage lithium metal battery}
+      \field{volume}{48}
+      \field{year}{2022}
+      \field{pages}{393\bibrangedash 402}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ensm.2022.03.034
+      \endverb
+    \endentry
+    \entry{ref.11}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=7758dfa4beec8e4c1bbb13edf10bc172}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Liwei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9d7346c0742bd05d82e9d24ed1afbb95}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3e6584898df05b7a864ee2c79695b013}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8e9ad96b19a396a14b8f53214d14c6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yaqiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=86a6c88223a4cdd8a776d661dfc36fe8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Tingzhou},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c45d9238efa2a77703dfb14b17e2d561}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Zuotao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fb0c4814f3abf81354888cea331c7659}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xinghong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=158afc73fb87b2b64d6e151a8eddd5c6}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yuanpeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d2a295369a1e14d1dbf68b6a31a0f21}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chunhui},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8264c225fee634d1d1fbec1c3e498e07}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhongwei},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{3abc54f7d179cbbff7310c756ada1567}
+      \strng{fullhash}{b973517e707f63467ab85af3920caf04}
+      \strng{fullhashraw}{b973517e707f63467ab85af3920caf04}
+      \strng{bibnamehash}{3abc54f7d179cbbff7310c756ada1567}
+      \strng{authorbibnamehash}{3abc54f7d179cbbff7310c756ada1567}
+      \strng{authornamehash}{3abc54f7d179cbbff7310c756ada1567}
+      \strng{authorfullhash}{b973517e707f63467ab85af3920caf04}
+      \strng{authorfullhashraw}{b973517e707f63467ab85af3920caf04}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS nano}
+      \field{number}{28}
+      \field{title}{All-fluorinated electrolyte engineering enables practical wide-temperature-range lithium metal batteries}
+      \field{volume}{18}
+      \field{year}{2024}
+      \field{pages}{18729\bibrangedash 18742}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1021/acsnano.4c06231
+      \endverb
+    \endentry
+    \entry{ref.12}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6c6548558205b9f01d51a1437daa0d08}{%
+           family={Cootes},
+           familyi={C\bibinitperiod},
+           given={Tim\bibnamedelima F},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9e3137c0760796085baad41b22beb55e}{%
+           family={Ionita},
+           familyi={I\bibinitperiod},
+           given={Mircea\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7b9a4dbb66c3f961e2a436bbb1d6c74f}{%
+           family={Lindner},
+           familyi={L\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=48d150cffd696ebc5bb66ffcc2422202}{%
+           family={Sauer},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{51b412cd3b1297458dba18da9769e0be}
+      \strng{fullhash}{7bd84ba5a867481285a150fc1362f210}
+      \strng{fullhashraw}{7bd84ba5a867481285a150fc1362f210}
+      \strng{bibnamehash}{51b412cd3b1297458dba18da9769e0be}
+      \strng{authorbibnamehash}{51b412cd3b1297458dba18da9769e0be}
+      \strng{authornamehash}{51b412cd3b1297458dba18da9769e0be}
+      \strng{authorfullhash}{7bd84ba5a867481285a150fc1362f210}
+      \strng{authorfullhashraw}{7bd84ba5a867481285a150fc1362f210}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European conference on computer vision}
+      \field{title}{Robust and accurate shape model fitting using random forest regression voting}
+      \field{year}{2012}
+      \field{pages}{278\bibrangedash 291}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-642-33786-4_21
+      \endverb
+    \endentry
+    \entry{ref.13}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=4b33a6daf557a2531bece5eb8a08c5fd}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Li-Tang},
+           giveni={L\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=b6e8ea83b59f41954e100284445e5956}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shu-Shen},
+           giveni={S\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=c4f10e59d493ab78d672b78ee146b948}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hai-Ling},
+           giveni={H\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=64c4fcde707bc430047edc6950393c5e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Hong},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{66c8fd22cbcb5655ae1d52451fb1c051}
+      \strng{fullhash}{2a893cd88b865229f49eeff3e5e87615}
+      \strng{fullhashraw}{2a893cd88b865229f49eeff3e5e87615}
+      \strng{bibnamehash}{66c8fd22cbcb5655ae1d52451fb1c051}
+      \strng{authorbibnamehash}{66c8fd22cbcb5655ae1d52451fb1c051}
+      \strng{authornamehash}{66c8fd22cbcb5655ae1d52451fb1c051}
+      \strng{authorfullhash}{2a893cd88b865229f49eeff3e5e87615}
+      \strng{authorfullhashraw}{2a893cd88b865229f49eeff3e5e87615}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemosphere}
+      \field{number}{3}
+      \field{title}{Support vector regression and least squares support vector regression for hormetic dose--response curves fitting}
+      \field{volume}{78}
+      \field{year}{2010}
+      \field{pages}{327\bibrangedash 334}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.chemosphere.2009.10.029
+      \endverb
+    \endentry
+    \entry{ref.14}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=530207c1a19adb4374b5f03e42877fa7}{%
+           family={Deringer},
+           familyi={D\bibinitperiod},
+           given={Volker\bibnamedelima L},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=59a4f3b5aaad7a270890b1d01422b0e3}{%
+           family={Bartók},
+           familyi={B\bibinitperiod},
+           given={Albert\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c853d5219697d5dd997a65dfb98de747}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7b659a472fa0ce8543291bcad04f9e05}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=272d29becb51e394d5ce737ecaf4c653}{%
+           family={Ceriotti},
+           familyi={C\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aef6628a7e1ad935b99d3d3cf7e63e20}{%
+           family={Csányi},
+           familyi={C\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{cfd47afd3454238627cf6f2577d40034}
+      \strng{fullhash}{7e29e02a2e8c58f82997a49230a4ac46}
+      \strng{fullhashraw}{7e29e02a2e8c58f82997a49230a4ac46}
+      \strng{bibnamehash}{cfd47afd3454238627cf6f2577d40034}
+      \strng{authorbibnamehash}{cfd47afd3454238627cf6f2577d40034}
+      \strng{authornamehash}{cfd47afd3454238627cf6f2577d40034}
+      \strng{authorfullhash}{7e29e02a2e8c58f82997a49230a4ac46}
+      \strng{authorfullhashraw}{7e29e02a2e8c58f82997a49230a4ac46}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical reviews}
+      \field{number}{16}
+      \field{title}{Gaussian process regression for materials and molecules}
+      \field{volume}{121}
+      \field{year}{2021}
+      \field{pages}{10073\bibrangedash 10141}
+      \range{pages}{69}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.1c00022
+      \endverb
+    \endentry
+    \entry{ref.15}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c4026997247ebd77e356d15460514bfc}{%
+           family={Ponce-Bobadilla},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={Ana\bibnamedelima Victoria},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=53f80294196c1868bd67386746d4197d}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f872409974f24a2abb7d7d3813e1e970}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Corinna\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=363e2c7ec0d2fab8097b1a796b1966c8}{%
+           family={Mensing},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8cef62445a96822a1003f0f67540a3c8}{%
+           family={Stodtmann},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c94d17195bdb852b4ebb983988ff46db}
+      \strng{fullhash}{4baee887af2f5956167e197e225a0003}
+      \strng{fullhashraw}{4baee887af2f5956167e197e225a0003}
+      \strng{bibnamehash}{c94d17195bdb852b4ebb983988ff46db}
+      \strng{authorbibnamehash}{c94d17195bdb852b4ebb983988ff46db}
+      \strng{authornamehash}{c94d17195bdb852b4ebb983988ff46db}
+      \strng{authorfullhash}{4baee887af2f5956167e197e225a0003}
+      \strng{authorfullhashraw}{4baee887af2f5956167e197e225a0003}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical and translational science}
+      \field{number}{11}
+      \field{title}{Practical guide to SHAP analysis: Explaining supervised machine learning model predictions in drug development}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{e70056}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/cts.70056
+      \endverb
+    \endentry
+    \entry{ref.16}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0723b8c72369fc271de1d8fd808eb1bd}{%
+           family={Vilcachagua},
+           familyi={V\bibinitperiod},
+           given={Janaina\bibnamedelima Dantas},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4742e8aef5cc3b24c5f6c456ce166ee3}{%
+           family={Ducati},
+           familyi={D\bibinitperiod},
+           given={Lucas\bibnamedelima C},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=50577958d45bf415f124a7cc61d9d465}{%
+           family={Rittner},
+           familyi={R\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=87839bdbfae5582db6bac5d97ddda96e}{%
+           family={Contreras},
+           familyi={C\bibinitperiod},
+           given={Ruben\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=aaecc0ca3ac78e224af0d19af9b9948a}{%
+           family={Tormena},
+           familyi={T\bibinitperiod},
+           given={Cláudio\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{92acf690db1c20c1faa37960062c3645}
+      \strng{fullhash}{99fee404253ce221b22f7f95a4d323b0}
+      \strng{fullhashraw}{99fee404253ce221b22f7f95a4d323b0}
+      \strng{bibnamehash}{92acf690db1c20c1faa37960062c3645}
+      \strng{authorbibnamehash}{92acf690db1c20c1faa37960062c3645}
+      \strng{authornamehash}{92acf690db1c20c1faa37960062c3645}
+      \strng{authorfullhash}{99fee404253ce221b22f7f95a4d323b0}
+      \strng{authorfullhashraw}{99fee404253ce221b22f7f95a4d323b0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry A}
+      \field{number}{7}
+      \field{title}{Experimental, SOPPA (CCSD), and DFT Analysis of Substitutent Effects on NMR 1 J CF Coupling Constants in Fluorobenzene Derivatives}
+      \field{volume}{115}
+      \field{year}{2011}
+      \field{pages}{1272\bibrangedash 1279}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/jp110290b
+      \endverb
+    \endentry
+    \entry{ref.17}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=dd55fa9db51767783324586f58ca5e7a}{%
+           family={Strobl},
+           familyi={S\bibinitperiod},
+           given={Carolin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e0570ef8bfff680390d873f845ba8c95}{%
+           family={Boulesteix},
+           familyi={B\bibinitperiod},
+           given={Anne-Laure},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=9b2b213ce13e040cff6fc8714922a812}{%
+           family={Zeileis},
+           familyi={Z\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2df5fa9113f59f6da45be87390cb41f4}{%
+           family={Hothorn},
+           familyi={H\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{05c04a23c8bf2587f67a030a2bcb6ae6}
+      \strng{fullhash}{1c3cd31b60cddb6e84934ad74ab861a7}
+      \strng{fullhashraw}{1c3cd31b60cddb6e84934ad74ab861a7}
+      \strng{bibnamehash}{05c04a23c8bf2587f67a030a2bcb6ae6}
+      \strng{authorbibnamehash}{05c04a23c8bf2587f67a030a2bcb6ae6}
+      \strng{authornamehash}{05c04a23c8bf2587f67a030a2bcb6ae6}
+      \strng{authorfullhash}{1c3cd31b60cddb6e84934ad74ab861a7}
+      \strng{authorfullhashraw}{1c3cd31b60cddb6e84934ad74ab861a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC bioinformatics}
+      \field{number}{1}
+      \field{title}{Bias in random forest variable importance measures: Illustrations, sources and a solution}
+      \field{volume}{8}
+      \field{year}{2007}
+      \field{pages}{25}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1471-2105-8-25
+      \endverb
+    \endentry
+    \entry{ref.18}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e5a2f6c50bd9db063134b3ad93d33e3f}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dcef3e453bdc52c083fc34dc848cc64}{%
+           family={Toloşi},
+           familyi={T\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3bcceade1ca3279ab1232431809250ab}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=523d57c46fd06417e60e5209d0122f34}{%
+           family={Lengauer},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f0508526f8cf90b9b69a7dc394955d3b}
+      \strng{fullhash}{41cf253cfe1a5b0acca603d4fd9ccd49}
+      \strng{fullhashraw}{41cf253cfe1a5b0acca603d4fd9ccd49}
+      \strng{bibnamehash}{f0508526f8cf90b9b69a7dc394955d3b}
+      \strng{authorbibnamehash}{f0508526f8cf90b9b69a7dc394955d3b}
+      \strng{authornamehash}{f0508526f8cf90b9b69a7dc394955d3b}
+      \strng{authorfullhash}{41cf253cfe1a5b0acca603d4fd9ccd49}
+      \strng{authorfullhashraw}{41cf253cfe1a5b0acca603d4fd9ccd49}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{10}
+      \field{title}{Permutation importance: a corrected feature importance measure}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{1340\bibrangedash 1347}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btq134
+      \endverb
+    \endentry
+    \entry{ref.19}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f5acec98b29ee91fa6b08b85a6a0adad}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=df074f4606a794e1b0742c1341d69633}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{fullhash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{fullhashraw}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{bibnamehash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{authorbibnamehash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{authornamehash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{authorfullhash}{9123506e4463b37d78ba9d1b2f5577af}
+      \strng{authorfullhashraw}{9123506e4463b37d78ba9d1b2f5577af}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Npj Computational Materials}
+      \field{number}{1}
+      \field{title}{A strategy to apply machine learning to small datasets in materials science}
+      \field{volume}{4}
+      \field{year}{2018}
+      \field{pages}{25}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41524-018-0081-z
+      \endverb
+    \endentry
+    \entry{ref.20}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=04a9fb53f222c4dcb8866fcab98f4eb1}{%
+           family={Ehtsham},
+           familyi={E\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2217fb1dde06089ff1a756bc7f210cd}{%
+           family={Rotilio},
+           familyi={R\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=76b97235fce07e4c8b713c0b89b1a599}{%
+           family={Cucchiella},
+           familyi={C\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ccfa931f992a8599bc875ad2a41d91bd}{%
+           family={Di\bibnamedelima Giovanni},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Gianni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b9242740a6537cbd5dbf7779648d66ce}{%
+           family={Schettini},
+           familyi={S\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{1bcaa6ee8fc32f03828dbb43cbea8ac3}
+      \strng{fullhash}{9e7b3189ab8efa676ee76d8ba1fb130b}
+      \strng{fullhashraw}{9e7b3189ab8efa676ee76d8ba1fb130b}
+      \strng{bibnamehash}{1bcaa6ee8fc32f03828dbb43cbea8ac3}
+      \strng{authorbibnamehash}{1bcaa6ee8fc32f03828dbb43cbea8ac3}
+      \strng{authornamehash}{1bcaa6ee8fc32f03828dbb43cbea8ac3}
+      \strng{authorfullhash}{9e7b3189ab8efa676ee76d8ba1fb130b}
+      \strng{authorfullhashraw}{9e7b3189ab8efa676ee76d8ba1fb130b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{E3S Web of Conferences}
+      \field{title}{Investigating the effects of hyperparameter sensitivity on machine learning algorithms for PV forecasting}
+      \field{volume}{612}
+      \field{year}{2025}
+      \field{pages}{01002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/e3sconf/202561201002
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
